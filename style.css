@@ -1,0 +1,62 @@
+body{
+ background-color: burlywood;
+}
+
+#forward-typewriter
+{
+    height: 90vh;
+    width: 90vw;
+    padding: 10px;
+    border: white solid 4px;
+    background-color: black;
+    color:white;
+    font-family: arial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forward-typewriter .text-out,.text-in
+{
+    width: 95%;
+    border: white solid 4px;
+    margin: 10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+#forward-typewriter .text-out
+{
+    height: 75%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16pt;
+    overflow-y: scroll;
+    padding: 5px;
+}
+#forward-typewriter .text-in
+{
+    height: 10%;
+    box-sizing: border-box;
+    font-size: 18pt;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+button{
+    width: 15%;
+    font-size: 14pt;
+    height: 60px;
+    margin: 5px;
+    max-width: 120px;
+    border: white solid 5px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
