@@ -13,8 +13,8 @@ There are four buttons at the bottom.
 `;
 
 let content = ""; // The text that has been typed
-let charWriteThreashold = 48; // How many charaters to buffer before writhing next word
-let lastTypeTimerThreashold = 45.0; // After no typing for x seconds. Time writes will begin
+let charWriteThreshold = 48; // How many charaters to buffer before writhing next word
+let lastTypeTimerThreshold = 45.0; // After no typing for x seconds. Time writes will begin
 let lastTypeTimer = 0;
 let lastTypeTimerInterval = 0.1;
 
@@ -26,9 +26,9 @@ let btnWrite = document.querySelector("#forward-typewriter #btn-write-buffer");
 let btnCopy = document.querySelector("#forward-typewriter #btn-copy");
 
 setInterval(updateOutput, 100);
-setInterval(charTheasholdWrite, 500);
+setInterval(charThesholdWrite, 500);
 setInterval(lastTypeTimerUpdate, lastTypeTimerInterval * 1000);
-setInterval(timeTheasholdWrite, 1000);
+setInterval(timeThesholdWrite, 1000);
 
 textIn.addEventListener("input", () => {
   lastTypeTimer = 0.0;
@@ -81,14 +81,14 @@ function writeNextWord() {
   }
 }
 
-function charTheasholdWrite() {
-  if (textIn.value.length >= charWriteThreashold) {
+function charThesholdWrite() {
+  if (textIn.value.length >= charWriteThreshold) {
     writeNextWord();
   }
 }
 
-function timeTheasholdWrite() {
-  if (lastTypeTimer > lastTypeTimerThreashold) {
+function timeThesholdWrite() {
+  if (lastTypeTimer > lastTypeTimerThreshold) {
     writeNextWord();
   }
 }
