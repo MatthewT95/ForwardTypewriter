@@ -9,7 +9,7 @@ There are four buttons at the bottom.
 - Reset: Resets the user interface to what it was when you loaded the page.
 - Flush: Clears the text area of any text.
 - Write: Writes all text in text area to the viewer.
-- Copy: Copies the content in the viewer to your clipboard.
+- Copy:  Copies the content in the viewer to your clipboard.
 `;
 
 let content = ""; // The text that has been typed
