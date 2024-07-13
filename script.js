@@ -2,7 +2,7 @@ let defaultText = `---------------Instructions---------------
 
 This is Forward Typewriter. An editor that helps you maintain your flow when writhing. It does this by limiting how far back you can edit the text you have writhen. This prevents you from stopping your writing process to go back and edit what you have written. This ensures you keep writhing forward. This is prefect for any first draft where you need to simple get your thoughts on paper. You can still fix errors you have recently made, such as typos and spelling mistakes.
 
-To use this tool, which runs in a browser simple type in the text area below. As you fill it with text, it will, on a delay, append the words you type to the viewer. When you exceed 48 characters in the text area, it moves the oldest word to the viewer. You can edit the text in the text area if needed, but once they are moved to the viewer, it is read-only.
+To use this tool, which runs in a browser simple type in the text area below. As you fill it with text, it will, on a delay, append the words you type to the viewer. When you exceed 48 characters in the text area, it moves the oldest word to the viewer. You can still edit the text in the text area if needed, but once they are moved to the viewer, it is read-only.
 
 There are four buttons at the bottom.
 
