@@ -1,22 +1,21 @@
-body{
- background-color: burlywood;
+body {
+    background-color: burlywood;
 }
 
-#forward-typewriter
-{
+#forward-typewriter {
     height: 90vh;
     width: 90vw;
     padding: 10px;
     border: white solid 4px;
     background-color: black;
-    color:white;
+    color: white;
     font-family: arial;
     margin-left: auto;
     margin-right: auto;
 }
 
-#forward-typewriter .text-out,.text-in
-{
+#forward-typewriter .text-out,
+.text-in {
     width: 95%;
     border: white solid 4px;
     margin: 10px;
@@ -25,29 +24,29 @@ body{
     background-color: black;
 }
 
-#forward-typewriter .text-out
-{
+#forward-typewriter .text-out {
     height: 75%;
     display: block;
     box-sizing: border-box;
     font-size: 16pt;
     overflow-y: scroll;
     padding: 5px;
+    white-space: pre-wrap;
 }
-#forward-typewriter .text-in
-{
+
+#forward-typewriter .text-in {
     height: 10%;
     box-sizing: border-box;
     font-size: 18pt;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 24pt;
     font-weight: bold;
 }
 
-button{
+button {
     width: 15%;
     font-size: 14pt;
     height: 60px;
@@ -56,7 +55,7 @@ button{
     border: white solid 5px;
 }
 
-button:hover{
+button:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
