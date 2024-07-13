@@ -6,7 +6,7 @@ Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna ne
 
 let content = ""; // The text that has been typed
 let charWriteThreashold = 48; // How many charaters to buffer before writhing next word
-let lastTypeTimerThreashold = 15.0; // After no charLimit writes for x seconds. Time writes will begin
+let lastTypeTimerThreashold = 45.0; // After no typing for x seconds. Time writes will begin
 let lastTypeTimer = 0;
 let lastTypeTimerInterval = 0.1;
 
